@@ -14,5 +14,5 @@ class TestBases:
         return self.driver
 
     def teardown(self):
-        # self.driver.close()
+
         self.driver.quit()
